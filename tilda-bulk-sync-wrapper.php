@@ -2,7 +2,7 @@
 /**
  * Plugin Name: Tilda Bulk Sync Wrapper
  * Plugin URI: https://qrbarcodehub.com/
- * Description: Обёртка над официальным плагином Tilda Publishing: массовая синхронизация всех опубликованных лендингов, привязанных к Tilda, и массовый перенос всех опубликованных страниц проекта Tilda в WordPress (включая страницы, для которых ещё нет записей). Не изменяет код официального плагина.
+ * Description: A wrapper around the official Tilda Publishing plugin: bulk synchronization of all published Tilda-linked landings and bulk import of all published Tilda project pages into WordPress (including pages that do not have posts yet). Does not modify the official plugin's code.
  * Version: 1.1.0
  * Requires at least: 5.6
  * Requires PHP: 7.4

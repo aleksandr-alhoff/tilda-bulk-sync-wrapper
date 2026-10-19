@@ -15,7 +15,7 @@ class TBSW_Admin {
 	const NONCE_ACTION = 'tbsw_ajax';
 
 	public static function init() {
-		load_plugin_textdomain( 'tilda-bulk-sync-wrapper', false, dirname( TBSW_PLUGIN_BASENAME ) . '/languages' );
+		load_plugin_textdomain( 'tilda-bulk-sync-wrapper', false, dirname( TBSW_PLUGIN_BASENAME ) . '/languages' ); // phpcs:ignore PluginCheck.CodeAnalysis.DiscouragedFunctions.load_plugin_textdomainFound -- Local /languages packs are bundled and must be loaded for self-hosted installs.
 		add_action( 'admin_menu', array( __CLASS__, 'admin_menu' ) );
 		add_action( 'admin_enqueue_scripts', array( __CLASS__, 'enqueue' ) );
 
@@ -280,7 +280,7 @@ class TBSW_Admin {
 
 	public static function ajax_start() {
 		self::guard();
-		$type = isset( $_POST['task'] ) ? sanitize_key( wp_unslash( $_POST['task'] ) ) : '';
+		$type = isset( $_POST['task'] ) ? sanitize_key( wp_unslash( $_POST['task'] ) ) : ''; // phpcs:ignore WordPress.Security.NonceVerification.Missing -- Nonce verified in self::guard().
 		if ( ! in_array( $type, array( 'sync', 'import' ), true ) ) {
 			wp_send_json_error( array( 'error' => __( 'Unknown task type.', 'tilda-bulk-sync-wrapper' ) ), 422 );
 		}
@@ -309,13 +309,13 @@ class TBSW_Admin {
 			}
 		} else {
 			$extra = array();
-			if ( isset( $_POST['excluded_extra'] ) && is_array( $_POST['excluded_extra'] ) ) {
-				$extra = array_map( 'intval', wp_unslash( $_POST['excluded_extra'] ) );
+			if ( isset( $_POST['excluded_extra'] ) && is_array( $_POST['excluded_extra'] ) ) { // phpcs:ignore WordPress.Security.NonceVerification.Missing -- Nonce verified in self::guard().
+				$extra = array_map( 'intval', wp_unslash( $_POST['excluded_extra'] ) ); // phpcs:ignore WordPress.Security.NonceVerification.Missing -- Nonce verified in self::guard().
 			}
 			$excluded            = array_unique( array_merge( $settings['excluded_page_ids'], $extra ) );
 			$plan                = TBSW_Core::build_import_plan( $excluded );
 			$meta['skipped']     = $plan['counters']['skip'];
-			$meta['make_front_page'] = isset( $_POST['make_front_page'] ) && '1' === $_POST['make_front_page'];
+			$meta['make_front_page'] = isset( $_POST['make_front_page'] ) && '1' === $_POST['make_front_page']; // phpcs:ignore WordPress.Security.NonceVerification.Missing -- Nonce verified in self::guard().
 			foreach ( $plan['pages'] as $row ) {
 				if ( 'skip' === $row['action'] ) {
 					continue;
@@ -386,7 +386,7 @@ class TBSW_Admin {
 
 	public static function ajax_save_settings() {
 		self::guard();
-		$raw_excluded = isset( $_POST['excluded'] ) ? sanitize_text_field( wp_unslash( $_POST['excluded'] ) ) : '';
+		$raw_excluded = isset( $_POST['excluded'] ) ? sanitize_text_field( wp_unslash( $_POST['excluded'] ) ) : ''; // phpcs:ignore WordPress.Security.NonceVerification.Missing -- Nonce verified in self::guard().
 		$ids          = array();
 		foreach ( explode( ',', $raw_excluded ) as $part ) {
 			$part = trim( $part );
@@ -394,13 +394,13 @@ class TBSW_Admin {
 				$ids[] = intval( $part );
 			}
 		}
-		$batch = isset( $_POST['batch_size'] ) ? intval( $_POST['batch_size'] ) : TBSW_Queue::DEFAULT_BATCH_SIZE;
+		$batch = isset( $_POST['batch_size'] ) ? intval( $_POST['batch_size'] ) : TBSW_Queue::DEFAULT_BATCH_SIZE; // phpcs:ignore WordPress.Security.NonceVerification.Missing -- Nonce verified in self::guard().
 		$new   = array(
 			'excluded_page_ids' => array_unique( $ids ),
 			'batch_size'        => $batch,
 		);
-		if ( isset( $_POST['project_ids'] ) && is_array( $_POST['project_ids'] ) ) {
-			$new['project_ids'] = array_map( 'intval', wp_unslash( $_POST['project_ids'] ) );
+		if ( isset( $_POST['project_ids'] ) && is_array( $_POST['project_ids'] ) ) { // phpcs:ignore WordPress.Security.NonceVerification.Missing -- Nonce verified in self::guard().
+			$new['project_ids'] = array_map( 'intval', wp_unslash( $_POST['project_ids'] ) ); // phpcs:ignore WordPress.Security.NonceVerification.Missing -- Nonce verified in self::guard().
 		}
 		TBSW_Queue::update_settings( $new );
 		wp_send_json_success( array( 'settings' => TBSW_Queue::get_settings() ) );
