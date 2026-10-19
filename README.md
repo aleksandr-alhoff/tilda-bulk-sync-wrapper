@@ -168,4 +168,4 @@ New or corrected translations can be submitted as a pull request adding `tilda-b
 
 ## License
 
-This plugin is released under the **GNU General Public License v2.0 or later**, as declared in the plugin header and in `readme.txt` (`License: GPLv2 or later`, <https://www.gnu.org/licenses/gpl-2.0.html>).
+This plugin is released under the **GNU General Public License v2.0 or later**, as declared in the plugin header, in `readme.txt` and in the `LICENSE` file of this repository (<https://www.gnu.org/licenses/gpl-2.0.html>).
