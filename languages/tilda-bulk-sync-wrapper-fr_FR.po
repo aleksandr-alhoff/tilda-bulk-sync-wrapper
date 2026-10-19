@@ -1,0 +1,270 @@
+# French translation for Tilda Bulk Sync Wrapper.
+# Copyright (C) 2026 qrbarcodehub
+# This file is distributed under the same license as the Tilda Bulk Sync Wrapper package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Tilda Bulk Sync Wrapper 1.1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-10-18 00:00+0000\n"
+"PO-Revision-Date: 2026-10-18 00:00+0000\n"
+"Last-Translator: \n"
+"Language-Team: French\n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: gen_translations.py\n"
+"X-Domain: tilda-bulk-sync-wrapper\n"
+
+msgid "Tilda Bulk Sync Wrapper requires PHP %s or newer."
+msgstr "Tilda Bulk Sync Wrapper nécessite PHP %s ou une version ultérieure."
+
+msgid "Tilda Bulk Sync Wrapper requires WordPress %s or newer."
+msgstr "Tilda Bulk Sync Wrapper nécessite WordPress %s ou une version ultérieure."
+
+msgid "Official plugin Tilda Publishing is not active."
+msgstr "L’extension officielle Tilda Publishing n’est pas active."
+
+msgid "Missing class %s in official plugin."
+msgstr "Classe %s manquante dans l’extension officielle."
+
+msgid "Missing method %1$s in class %2$s of official plugin."
+msgstr "Méthode %1$s manquante dans la classe %2$s de l’extension officielle."
+
+msgid "Project %1$s: getPagesList failed: %2$s"
+msgstr "Projet %1$s : échec de getPagesList : %2$s"
+
+msgid "excluded in settings or preview"
+msgstr "exclue dans les réglages ou l’aperçu"
+
+msgid "not published in Tilda"
+msgstr "non publiée dans Tilda"
+
+msgid "Remote image not found, skipped: %s"
+msgstr "Image distante introuvable, ignorée : %s"
+
+msgid "Cannot save file to %s"
+msgstr "Impossible d’enregistrer le fichier dans %s"
+
+msgid "empty response"
+msgstr "réponse vide"
+
+msgid "Download failed after retries: %1$s (%2$s)"
+msgstr "Échec du téléchargement après plusieurs tentatives : %1$s (%2$s)"
+
+msgid "Task"
+msgstr "Tâche"
+
+msgid "Previous run lost its heartbeat; lock released as stale."
+msgstr "L’exécution précédente n’a plus donné signe de vie ; le verrou a été libéré comme obsolète."
+
+msgid "Cannot create page: %s"
+msgstr "Impossible de créer la page : %s"
+
+msgid "No WordPress post bound to this Tilda page."
+msgstr "Aucune publication WordPress n’est liée à cette page Tilda."
+
+msgid "Slug collision resolved by WordPress suffix: %s"
+msgstr "Conflit de slug résolu par un suffixe WordPress : %s"
+
+msgid "Tilda Bulk Sync"
+msgstr "Synchronisation en masse Tilda"
+
+msgid "Start bulk synchronization of all published Tilda landings?"
+msgstr "Lancer la synchronisation en masse de toutes les pages de destination Tilda publiées ?"
+
+msgid "Start import of published Tilda pages into WordPress?"
+msgstr "Lancer l’importation des pages Tilda publiées dans WordPress ?"
+
+msgid "Task is running…"
+msgstr "Tâche en cours…"
+
+msgid "Task finished."
+msgstr "Tâche terminée."
+
+msgid "Task cancelled."
+msgstr "Tâche annulée."
+
+msgid "Error"
+msgstr "Erreur"
+
+msgid "Processed"
+msgstr "Traitée"
+
+msgid "Success"
+msgstr "Succès"
+
+msgid "Skipped"
+msgstr "Ignorée"
+
+msgid "Errors"
+msgstr "Erreurs"
+
+msgid "create"
+msgstr "créer"
+
+msgid "update"
+msgstr "mettre à jour"
+
+msgid "skip"
+msgstr "ignorer"
+
+msgid "yes"
+msgstr "oui"
+
+msgid "no"
+msgstr "non"
+
+msgid "You are not allowed to access this page."
+msgstr "Vous n’êtes pas autorisé à accéder à cette page."
+
+msgid "Tilda Bulk Sync Wrapper"
+msgstr "Synchronisation en masse Tilda"
+
+msgid "Official plugin status"
+msgstr "État de l’extension officielle"
+
+msgid "Official Tilda Publishing plugin is active and compatible."
+msgstr "L’extension officielle Tilda Publishing est active et compatible."
+
+msgid "A task is currently running (lock held): %s. Wait for it to finish or cancel it below."
+msgstr "Une tâche est en cours (verrou actif) : %s. Attendez qu’elle se termine ou annulez-la ci-dessous."
+
+msgid "Task 1. Bulk synchronization"
+msgstr "Tâche 1. Synchronisation en masse"
+
+msgid "Published landings bound to Tilda: %d"
+msgstr "Pages de destination publiées liées à Tilda : %d"
+
+msgid "Synchronize all published Tilda landings"
+msgstr "Synchroniser toutes les pages de destination Tilda publiées"
+
+msgid "Task 2. Import all published pages of the Tilda project"
+msgstr "Tâche 2. Importer toutes les pages publiées du projet Tilda"
+
+msgid "Build preview of pages to import"
+msgstr "Générer l’aperçu des pages à importer"
+
+msgid "Include"
+msgstr "Inclure"
+
+msgid "Title"
+msgstr "Titre"
+
+msgid "Tilda ID"
+msgstr "ID Tilda"
+
+msgid "Address"
+msgstr "Adresse"
+
+msgid "Action"
+msgstr "Action"
+
+msgid "Future slug"
+msgstr "Futur slug"
+
+msgid "Make the Tilda index page the site front page (Settings → Reading)"
+msgstr "Faire de la page d’index Tilda la page d’accueil du site (Réglages → Lecture)"
+
+msgid "Import all published pages from Tilda"
+msgstr "Importer toutes les pages publiées depuis Tilda"
+
+msgid "Progress"
+msgstr "Progression"
+
+msgid "No running task."
+msgstr "Aucune tâche en cours."
+
+msgid "Cancel task"
+msgstr "Annuler la tâche"
+
+msgid "Last task report"
+msgstr "Rapport de la dernière tâche"
+
+msgid "Type: %1$s. Status: %2$s. Started: %3$s."
+msgstr "Type : %1$s. État : %2$s. Démarrée : %3$s."
+
+msgid "Total: %d"
+msgstr "Total : %d"
+
+msgid "Processed: %d"
+msgstr "Traitées : %d"
+
+msgid "Success: %d"
+msgstr "Succès : %d"
+
+msgid "Skipped: %d"
+msgstr "Ignorées : %d"
+
+msgid "Errors: %d"
+msgstr "Erreurs : %d"
+
+msgid "Page"
+msgstr "Page"
+
+msgid "No tasks have been run yet."
+msgstr "Aucune tâche n’a encore été exécutée."
+
+msgid "Journal (last 50 lines)"
+msgstr "Journal (50 dernières lignes)"
+
+msgid "Journal is empty."
+msgstr "Le journal est vide."
+
+msgid "Settings"
+msgstr "Réglages"
+
+msgid "Never import these Tilda page IDs (comma separated)"
+msgstr "Ne jamais importer ces ID de pages Tilda (séparés par des virgules)"
+
+msgid "Batch size (pages per request, 1–10)"
+msgstr "Taille du lot (pages par requête, 1–10)"
+
+msgid "Save settings"
+msgstr "Enregistrer les réglages"
+
+msgid "Required plugin \"Fullwidth Templates for Any Theme & Page Builder\" is not active. Install and activate it first: https://ru.wordpress.org/plugins/fullwidth-templates/"
+msgstr "L’extension requise « Fullwidth Templates for Any Theme & Page Builder » n’est pas active. Installez-la et activez-la d’abord : %s"
+
+msgid "Tilda Bulk Sync Wrapper requires the plugin \"Fullwidth Templates for Any Theme & Page Builder\" (https://ru.wordpress.org/plugins/fullwidth-templates/). Install and activate it, then activate this plugin again."
+msgstr "Tilda Bulk Sync Wrapper nécessite l’extension « Fullwidth Templates for Any Theme & Page Builder » (https://ru.wordpress.org/plugins/fullwidth-templates/). Installez-la et activez-la, puis réactivez cette extension."
+
+msgid "Tilda projects"
+msgstr "Projets Tilda"
+
+msgid "No projects found. Add an API key and sync projects in the official Tilda Publishing plugin settings first."
+msgstr "Aucun projet trouvé. Ajoutez d’abord une clé API et synchronisez les projets dans les réglages de l’extension officielle Tilda Publishing."
+
+msgid "Select which Tilda project(s) this site should work with. Both tasks below use only the selected projects. If nothing is selected, all enabled projects are used."
+msgstr "Sélectionnez le ou les projets Tilda avec lesquels ce site doit travailler. Les deux tâches ci-dessous n’utilisent que les projets sélectionnés. Si rien n’est sélectionné, tous les projets activés sont utilisés."
+
+msgid "Projects"
+msgstr "Projets"
+
+msgid "(untitled)"
+msgstr "(sans titre)"
+
+msgid "disabled in official plugin"
+msgstr "désactivé dans l’extension officielle"
+
+msgid "Save selected projects"
+msgstr "Enregistrer les projets sélectionnés"
+
+msgid "Forbidden."
+msgstr "Accès interdit."
+
+msgid "Unknown task type."
+msgstr "Type de tâche inconnu."
+
+msgid "Another task is already running. Wait for it to finish or cancel it."
+msgstr "Une autre tâche est déjà en cours. Attendez qu’elle se termine ou annulez-la."
+
+msgid "Nothing to process: no published Tilda-bound landings or published Tilda pages found."
+msgstr "Rien à traiter : aucune page de destination publiée liée à Tilda ni page Tilda publiée trouvée."
+
+msgid "Lock lost or belongs to another task."
+msgstr "Verrou perdu ou appartenant à une autre tâche."
+
+msgid "Tilda Bulk Sync Wrapper requires the official \"Tilda Publishing\" plugin (https://wordpress.org/plugins/tilda-publishing/). Install and activate it, then activate this plugin again."
+msgstr "Tilda Bulk Sync Wrapper nécessite l’extension officielle « Tilda Publishing » (https://wordpress.org/plugins/tilda-publishing/). Installez-la et activez-la, puis réactivez cette extension."

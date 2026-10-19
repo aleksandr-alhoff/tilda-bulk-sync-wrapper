@@ -1,0 +1,354 @@
+# Russian translation for Tilda Bulk Sync Wrapper.
+# Copyright (C) 2026 qrbarcodehub
+# This file is distributed under the same license as the Tilda Bulk Sync Wrapper package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Tilda Bulk Sync Wrapper 1.1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-10-17 00:00+0000\n"
+"PO-Revision-Date: 2026-10-17 00:00+0000\n"
+"Last-Translator: \n"
+"Language-Team: Russian\n"
+"Language: ru_RU\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
+"X-Generator: manual\n"
+"X-Domain: tilda-bulk-sync-wrapper\n"
+
+#: tilda-bulk-sync-wrapper.php
+msgid "Tilda Bulk Sync Wrapper requires PHP %s or newer."
+msgstr "Для работы Tilda Bulk Sync Wrapper требуется PHP %s или новее."
+
+#: tilda-bulk-sync-wrapper.php
+msgid "Tilda Bulk Sync Wrapper requires WordPress %s or newer."
+msgstr "Для работы Tilda Bulk Sync Wrapper требуется WordPress %s или новее."
+
+#: includes/class-tbsw-core.php
+msgid "Official plugin Tilda Publishing is not active."
+msgstr "Официальный плагин Tilda Publishing не активен."
+
+#: includes/class-tbsw-core.php
+msgid "Missing class %s in official plugin."
+msgstr "В официальном плагине отсутствует класс %s."
+
+#: includes/class-tbsw-core.php
+msgid "Missing method %1$s in class %2$s of official plugin."
+msgstr "В официальном плагине отсутствует метод %1$s класса %2$s."
+
+#: includes/class-tbsw-core.php
+msgid "Project %1$s: getPagesList failed: %2$s"
+msgstr "Проект %1$s: не удалось получить список страниц (getPagesList): %2$s"
+
+#: includes/class-tbsw-core.php
+msgid "excluded in settings or preview"
+msgstr "исключена в настройках или в предпросмотре"
+
+#: includes/class-tbsw-core.php
+msgid "not published in Tilda"
+msgstr "не опубликована в Tilda"
+
+#: includes/class-tbsw-core.php
+msgid "Remote image not found, skipped: %s"
+msgstr "Удалённое изображение не найдено, пропущено: %s"
+
+#: includes/class-tbsw-core.php
+msgid "Cannot save file to %s"
+msgstr "Не удалось сохранить файл в %s"
+
+#: includes/class-tbsw-core.php
+msgid "empty response"
+msgstr "пустой ответ"
+
+#: includes/class-tbsw-core.php
+msgid "Download failed after retries: %1$s (%2$s)"
+msgstr "Скачивание не удалось после повторов: %1$s (%2$s)"
+
+#: includes/class-tbsw-queue.php
+msgid "Task"
+msgstr "Задача"
+
+#: includes/class-tbsw-queue.php
+msgid "Previous run lost its heartbeat; lock released as stale."
+msgstr "Предыдущий запуск перестал подавать признаки жизни; блокировка снята как устаревшая."
+
+#: includes/class-tbsw-queue.php
+msgid "Cannot create page: %s"
+msgstr "Не удалось создать страницу: %s"
+
+#: includes/class-tbsw-queue.php
+msgid "No WordPress post bound to this Tilda page."
+msgstr "С этой страницей Tilda не связан ни один материал WordPress."
+
+#: includes/class-tbsw-queue.php
+msgid "Slug collision resolved by WordPress suffix: %s"
+msgstr "Конфликт ярлыка разрешён суффиксом WordPress: %s"
+
+#: includes/class-tbsw-admin.php
+msgid "Tilda Bulk Sync"
+msgstr "Массовая синхронизация Tilda"
+
+#: includes/class-tbsw-admin.php
+msgid "Start bulk synchronization of all published Tilda landings?"
+msgstr "Запустить массовую синхронизацию всех опубликованных лендингов Tilda?"
+
+#: includes/class-tbsw-admin.php
+msgid "Start import of published Tilda pages into WordPress?"
+msgstr "Запустить перенос опубликованных страниц Tilda в WordPress?"
+
+#: includes/class-tbsw-admin.php
+msgid "Task is running…"
+msgstr "Задача выполняется…"
+
+#: includes/class-tbsw-admin.php
+msgid "Task finished."
+msgstr "Задача завершена."
+
+#: includes/class-tbsw-admin.php
+msgid "Task cancelled."
+msgstr "Задача отменена."
+
+#: includes/class-tbsw-admin.php
+msgid "Error"
+msgstr "Ошибка"
+
+#: includes/class-tbsw-admin.php
+msgid "Processed"
+msgstr "Обработано"
+
+#: includes/class-tbsw-admin.php
+msgid "Success"
+msgstr "Успешно"
+
+#: includes/class-tbsw-admin.php
+msgid "Skipped"
+msgstr "Пропущено"
+
+#: includes/class-tbsw-admin.php
+msgid "Errors"
+msgstr "Ошибки"
+
+#: includes/class-tbsw-admin.php
+msgid "create"
+msgstr "создать"
+
+#: includes/class-tbsw-admin.php
+msgid "update"
+msgstr "обновить"
+
+#: includes/class-tbsw-admin.php
+msgid "skip"
+msgstr "пропустить"
+
+#: includes/class-tbsw-admin.php
+msgid "yes"
+msgstr "да"
+
+#: includes/class-tbsw-admin.php
+msgid "no"
+msgstr "нет"
+
+#: includes/class-tbsw-admin.php
+msgid "You are not allowed to access this page."
+msgstr "У вас нет доступа к этой странице."
+
+#: includes/class-tbsw-admin.php
+msgid "Tilda Bulk Sync Wrapper"
+msgstr "Массовая синхронизация Tilda"
+
+#: includes/class-tbsw-admin.php
+msgid "Official plugin status"
+msgstr "Состояние официального плагина"
+
+#: includes/class-tbsw-admin.php
+msgid "Official Tilda Publishing plugin is active and compatible."
+msgstr "Официальный плагин Tilda Publishing активен и совместим."
+
+#: includes/class-tbsw-admin.php
+msgid "A task is currently running (lock held): %s. Wait for it to finish or cancel it below."
+msgstr "Сейчас выполняется задача (блокировка занята): %s. Дождитесь завершения или отмените её ниже."
+
+#: includes/class-tbsw-admin.php
+msgid "Task 1. Bulk synchronization"
+msgstr "Задача 1. Массовая синхронизация"
+
+#: includes/class-tbsw-admin.php
+msgid "Published landings bound to Tilda: %d"
+msgstr "Опубликованных лендингов, привязанных к Tilda: %d"
+
+#: includes/class-tbsw-admin.php
+msgid "Synchronize all published Tilda landings"
+msgstr "Синхронизировать все опубликованные лендинги Tilda"
+
+#: includes/class-tbsw-admin.php
+msgid "Task 2. Import all published pages of the Tilda project"
+msgstr "Задача 2. Перенос всех опубликованных страниц проекта Tilda"
+
+#: includes/class-tbsw-admin.php
+msgid "Build preview of pages to import"
+msgstr "Построить предпросмотр страниц для переноса"
+
+#: includes/class-tbsw-admin.php
+msgid "Include"
+msgstr "Переносить"
+
+#: includes/class-tbsw-admin.php
+msgid "Title"
+msgstr "Название"
+
+#: includes/class-tbsw-admin.php
+msgid "Tilda ID"
+msgstr "ID в Tilda"
+
+#: includes/class-tbsw-admin.php
+msgid "Address"
+msgstr "Адрес"
+
+#: includes/class-tbsw-admin.php
+msgid "Action"
+msgstr "Действие"
+
+#: includes/class-tbsw-admin.php
+msgid "Future slug"
+msgstr "Будущий ярлык"
+
+#: includes/class-tbsw-admin.php
+msgid "Make the Tilda index page the site front page (Settings → Reading)"
+msgstr "Сделать индексную страницу Tilda главной страницей сайта (Настройки → Чтение)"
+
+#: includes/class-tbsw-admin.php
+msgid "Import all published pages from Tilda"
+msgstr "Перенести все опубликованные страницы из Tilda"
+
+#: includes/class-tbsw-admin.php
+msgid "Progress"
+msgstr "Прогресс"
+
+#: includes/class-tbsw-admin.php
+msgid "No running task."
+msgstr "Нет выполняемой задачи."
+
+#: includes/class-tbsw-admin.php
+msgid "Cancel task"
+msgstr "Отменить задачу"
+
+#: includes/class-tbsw-admin.php
+msgid "Last task report"
+msgstr "Отчёт о последней задаче"
+
+#: includes/class-tbsw-admin.php
+msgid "Type: %1$s. Status: %2$s. Started: %3$s."
+msgstr "Тип: %1$s. Статус: %2$s. Начало: %3$s."
+
+#: includes/class-tbsw-admin.php
+msgid "Total: %d"
+msgstr "Всего: %d"
+
+#: includes/class-tbsw-admin.php
+msgid "Processed: %d"
+msgstr "Обработано: %d"
+
+#: includes/class-tbsw-admin.php
+msgid "Success: %d"
+msgstr "Успешно: %d"
+
+#: includes/class-tbsw-admin.php
+msgid "Skipped: %d"
+msgstr "Пропущено: %d"
+
+#: includes/class-tbsw-admin.php
+msgid "Errors: %d"
+msgstr "Ошибки: %d"
+
+#: includes/class-tbsw-admin.php
+msgid "Page"
+msgstr "Страница"
+
+#: includes/class-tbsw-admin.php
+msgid "No tasks have been run yet."
+msgstr "Задачи ещё не запускались."
+
+#: includes/class-tbsw-admin.php
+msgid "Journal (last 50 lines)"
+msgstr "Журнал (последние 50 строк)"
+
+#: includes/class-tbsw-admin.php
+msgid "Journal is empty."
+msgstr "Журнал пуст."
+
+#: includes/class-tbsw-admin.php
+msgid "Settings"
+msgstr "Настройки"
+
+#: includes/class-tbsw-admin.php
+msgid "Never import these Tilda page IDs (comma separated)"
+msgstr "Никогда не переносить страницы Tilda с этими ID (через запятую)"
+
+#: includes/class-tbsw-admin.php
+msgid "Batch size (pages per request, 1–10)"
+msgstr "Размер пачки (страниц за запрос, 1–10)"
+
+#: includes/class-tbsw-admin.php
+msgid "Save settings"
+msgstr "Сохранить настройки"
+
+#: includes/class-tbsw-core.php
+msgid "Required plugin \"Fullwidth Templates for Any Theme & Page Builder\" is not active. Install and activate it first: https://ru.wordpress.org/plugins/fullwidth-templates/"
+msgstr "Обязательный плагин «Fullwidth Templates for Any Theme & Page Builder» не активен. Сначала установите и активируйте его: https://ru.wordpress.org/plugins/fullwidth-templates/"
+
+#: tilda-bulk-sync-wrapper.php
+msgid "Tilda Bulk Sync Wrapper requires the plugin \"Fullwidth Templates for Any Theme & Page Builder\" (https://ru.wordpress.org/plugins/fullwidth-templates/). Install and activate it, then activate this plugin again."
+msgstr "Для работы Tilda Bulk Sync Wrapper необходим плагин «Fullwidth Templates for Any Theme & Page Builder» (https://ru.wordpress.org/plugins/fullwidth-templates/). Установите и активируйте его, затем активируйте этот плагин снова."
+
+#: includes/class-tbsw-admin.php
+msgid "Tilda projects"
+msgstr "Проекты Tilda"
+
+#: includes/class-tbsw-admin.php
+msgid "No projects found. Add an API key and sync projects in the official Tilda Publishing plugin settings first."
+msgstr "Проекты не найдены. Сначала добавьте API-ключ и синхронизируйте проекты в настройках официального плагина Tilda Publishing."
+
+#: includes/class-tbsw-admin.php
+msgid "Select which Tilda project(s) this site should work with. Both tasks below use only the selected projects. If nothing is selected, all enabled projects are used."
+msgstr "Выберите, с каким(ими) проектом(ами) Tilda должен работать этот сайт. Обе задачи ниже используют только выбранные проекты. Если ничего не выбрано, используются все включённые проекты."
+
+#: includes/class-tbsw-admin.php
+msgid "Projects"
+msgstr "Проекты"
+
+#: includes/class-tbsw-admin.php
+msgid "(untitled)"
+msgstr "(без названия)"
+
+#: includes/class-tbsw-admin.php
+msgid "disabled in official plugin"
+msgstr "отключён в официальном плагине"
+
+#: includes/class-tbsw-admin.php
+msgid "Save selected projects"
+msgstr "Сохранить выбранные проекты"
+
+#: includes/class-tbsw-admin.php
+msgid "Forbidden."
+msgstr "Доступ запрещён."
+
+#: includes/class-tbsw-admin.php
+msgid "Unknown task type."
+msgstr "Неизвестный тип задачи."
+
+#: includes/class-tbsw-admin.php
+msgid "Another task is already running. Wait for it to finish or cancel it."
+msgstr "Уже выполняется другая задача. Дождитесь её завершения или отмените её."
+
+#: includes/class-tbsw-admin.php
+msgid "Nothing to process: no published Tilda-bound landings or published Tilda pages found."
+msgstr "Обрабатывать нечего: не найдено ни опубликованных лендингов с привязкой к Tilda, ни опубликованных страниц Tilda."
+
+#: includes/class-tbsw-admin.php
+msgid "Lock lost or belongs to another task."
+msgstr "Блокировка потеряна или принадлежит другой задаче."
+
+#: tilda-bulk-sync-wrapper.php
+msgid "Tilda Bulk Sync Wrapper requires the official \"Tilda Publishing\" plugin (https://wordpress.org/plugins/tilda-publishing/). Install and activate it, then activate this plugin again."
+msgstr "Для работы Tilda Bulk Sync Wrapper необходим официальный плагин «Tilda Publishing» (https://wordpress.org/plugins/tilda-publishing/). Установите и активируйте его, затем активируйте этот плагин снова."

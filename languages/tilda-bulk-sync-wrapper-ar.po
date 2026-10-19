@@ -1,0 +1,270 @@
+# Arabic translation for Tilda Bulk Sync Wrapper.
+# Copyright (C) 2026 qrbarcodehub
+# This file is distributed under the same license as the Tilda Bulk Sync Wrapper package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Tilda Bulk Sync Wrapper 1.1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-10-18 00:00+0000\n"
+"PO-Revision-Date: 2026-10-18 00:00+0000\n"
+"Last-Translator: \n"
+"Language-Team: Arabic\n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=(n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 ? 4 : 5);\n"
+"X-Generator: gen_translations.py\n"
+"X-Domain: tilda-bulk-sync-wrapper\n"
+
+msgid "Tilda Bulk Sync Wrapper requires PHP %s or newer."
+msgstr "يتطلب Tilda Bulk Sync Wrapper إصدار PHP %s أو أحدث."
+
+msgid "Tilda Bulk Sync Wrapper requires WordPress %s or newer."
+msgstr "يتطلب Tilda Bulk Sync Wrapper إصدار ووردبريس %s أو أحدث."
+
+msgid "Official plugin Tilda Publishing is not active."
+msgstr "إضافة Tilda Publishing الرسمية غير مفعّلة."
+
+msgid "Missing class %s in official plugin."
+msgstr "الصنف %s مفقود في الإضافة الرسمية."
+
+msgid "Missing method %1$s in class %2$s of official plugin."
+msgstr "الدالة %1$s مفقودة في الصنف %2$s من الإضافة الرسمية."
+
+msgid "Project %1$s: getPagesList failed: %2$s"
+msgstr "المشروع %1$s: فشل getPagesList: %2$s"
+
+msgid "excluded in settings or preview"
+msgstr "مستثناة في الإعدادات أو في المعاينة"
+
+msgid "not published in Tilda"
+msgstr "غير منشورة في Tilda"
+
+msgid "Remote image not found, skipped: %s"
+msgstr "لم يتم العثور على الصورة البعيدة، تم التخطي: %s"
+
+msgid "Cannot save file to %s"
+msgstr "تعذّر حفظ الملف في %s"
+
+msgid "empty response"
+msgstr "استجابة فارغة"
+
+msgid "Download failed after retries: %1$s (%2$s)"
+msgstr "فشل التنزيل بعد عدة محاولات: %1$s (%2$s)"
+
+msgid "Task"
+msgstr "مهمة"
+
+msgid "Previous run lost its heartbeat; lock released as stale."
+msgstr "فقد التشغيل السابق إشارته؛ تم تحرير القفل باعتباره قديمًا."
+
+msgid "Cannot create page: %s"
+msgstr "تعذّر إنشاء الصفحة: %s"
+
+msgid "No WordPress post bound to this Tilda page."
+msgstr "لا توجد مقالة ووردبريس مرتبطة بصفحة Tilda هذه."
+
+msgid "Slug collision resolved by WordPress suffix: %s"
+msgstr "تم حل تعارض الاسم اللطيف بلاحقة ووردبريس: %s"
+
+msgid "Tilda Bulk Sync"
+msgstr "مزامنة Tilda الجماعية"
+
+msgid "Start bulk synchronization of all published Tilda landings?"
+msgstr "بدء المزامنة الجماعية لجميع صفحات Tilda المنشورة؟"
+
+msgid "Start import of published Tilda pages into WordPress?"
+msgstr "بدء استيراد صفحات Tilda المنشورة إلى ووردبريس؟"
+
+msgid "Task is running…"
+msgstr "المهمة قيد التنفيذ…"
+
+msgid "Task finished."
+msgstr "انتهت المهمة."
+
+msgid "Task cancelled."
+msgstr "تم إلغاء المهمة."
+
+msgid "Error"
+msgstr "خطأ"
+
+msgid "Processed"
+msgstr "تمت معالجتها"
+
+msgid "Success"
+msgstr "ناجحة"
+
+msgid "Skipped"
+msgstr "تم تخطيها"
+
+msgid "Errors"
+msgstr "أخطاء"
+
+msgid "create"
+msgstr "إنشاء"
+
+msgid "update"
+msgstr "تحديث"
+
+msgid "skip"
+msgstr "تخطي"
+
+msgid "yes"
+msgstr "نعم"
+
+msgid "no"
+msgstr "لا"
+
+msgid "You are not allowed to access this page."
+msgstr "غير مسموح لك بالوصول إلى هذه الصفحة."
+
+msgid "Tilda Bulk Sync Wrapper"
+msgstr "مزامنة Tilda الجماعية"
+
+msgid "Official plugin status"
+msgstr "حالة الإضافة الرسمية"
+
+msgid "Official Tilda Publishing plugin is active and compatible."
+msgstr "إضافة Tilda Publishing الرسمية مفعّلة ومتوافقة."
+
+msgid "A task is currently running (lock held): %s. Wait for it to finish or cancel it below."
+msgstr "توجد مهمة قيد التنفيذ حاليًا (القفل محجوز): %s. انتظر حتى تنتهي أو ألغِها بالأسفل."
+
+msgid "Task 1. Bulk synchronization"
+msgstr "المهمة 1. المزامنة الجماعية"
+
+msgid "Published landings bound to Tilda: %d"
+msgstr "صفحات الهبوط المنشورة المرتبطة بـ Tilda: %d"
+
+msgid "Synchronize all published Tilda landings"
+msgstr "مزامنة جميع صفحات Tilda المنشورة"
+
+msgid "Task 2. Import all published pages of the Tilda project"
+msgstr "المهمة 2. استيراد جميع الصفحات المنشورة لمشروع Tilda"
+
+msgid "Build preview of pages to import"
+msgstr "إنشاء معاينة للصفحات المراد استيرادها"
+
+msgid "Include"
+msgstr "تضمين"
+
+msgid "Title"
+msgstr "العنوان"
+
+msgid "Tilda ID"
+msgstr "معرّف Tilda"
+
+msgid "Address"
+msgstr "العنوان"
+
+msgid "Action"
+msgstr "الإجراء"
+
+msgid "Future slug"
+msgstr "الاسم اللطيف المستقبلي"
+
+msgid "Make the Tilda index page the site front page (Settings → Reading)"
+msgstr "اجعل صفحة فهرس Tilda هي الصفحة الرئيسية للموقع (الإعدادات ← قراءة)"
+
+msgid "Import all published pages from Tilda"
+msgstr "استيراد جميع الصفحات المنشورة من Tilda"
+
+msgid "Progress"
+msgstr "التقدّم"
+
+msgid "No running task."
+msgstr "لا توجد مهمة قيد التنفيذ."
+
+msgid "Cancel task"
+msgstr "إلغاء المهمة"
+
+msgid "Last task report"
+msgstr "تقرير آخر مهمة"
+
+msgid "Type: %1$s. Status: %2$s. Started: %3$s."
+msgstr "النوع: %1$s. الحالة: %2$s. بدأت: %3$s."
+
+msgid "Total: %d"
+msgstr "الإجمالي: %d"
+
+msgid "Processed: %d"
+msgstr "تمت معالجتها: %d"
+
+msgid "Success: %d"
+msgstr "ناجحة: %d"
+
+msgid "Skipped: %d"
+msgstr "تم تخطيها: %d"
+
+msgid "Errors: %d"
+msgstr "أخطاء: %d"
+
+msgid "Page"
+msgstr "صفحة"
+
+msgid "No tasks have been run yet."
+msgstr "لم يتم تشغيل أي مهام بعد."
+
+msgid "Journal (last 50 lines)"
+msgstr "السجل (آخر 50 سطرًا)"
+
+msgid "Journal is empty."
+msgstr "السجل فارغ."
+
+msgid "Settings"
+msgstr "الإعدادات"
+
+msgid "Never import these Tilda page IDs (comma separated)"
+msgstr "لا تستورد أبدًا معرّفات صفحات Tilda هذه (مفصولة بفواصل)"
+
+msgid "Batch size (pages per request, 1–10)"
+msgstr "حجم الدفعة (صفحات لكل طلب، 1–10)"
+
+msgid "Save settings"
+msgstr "حفظ الإعدادات"
+
+msgid "Required plugin \"Fullwidth Templates for Any Theme & Page Builder\" is not active. Install and activate it first: https://ru.wordpress.org/plugins/fullwidth-templates/"
+msgstr "الإضافة المطلوبة «Fullwidth Templates for Any Theme & Page Builder» غير مفعّلة. قم بتثبيتها وتفعيلها أولًا: %s"
+
+msgid "Tilda Bulk Sync Wrapper requires the plugin \"Fullwidth Templates for Any Theme & Page Builder\" (https://ru.wordpress.org/plugins/fullwidth-templates/). Install and activate it, then activate this plugin again."
+msgstr "يتطلب Tilda Bulk Sync Wrapper إضافة «Fullwidth Templates for Any Theme & Page Builder» (%s). قم بتثبيتها وتفعيلها، ثم فعّل هذه الإضافة مرة أخرى."
+
+msgid "Tilda projects"
+msgstr "مشاريع Tilda"
+
+msgid "No projects found. Add an API key and sync projects in the official Tilda Publishing plugin settings first."
+msgstr "لم يتم العثور على مشاريع. أضف أولًا مفتاح API وزامن المشاريع في إعدادات إضافة Tilda Publishing الرسمية."
+
+msgid "Select which Tilda project(s) this site should work with. Both tasks below use only the selected projects. If nothing is selected, all enabled projects are used."
+msgstr "حدد مشروع/مشاريع Tilda التي يجب أن يعمل معها هذا الموقع. تستخدم كلتا المهمتين أدناه المشاريع المحددة فقط. إذا لم يتم تحديد أي شيء، فسيتم استخدام جميع المشاريع المفعّلة."
+
+msgid "Projects"
+msgstr "المشاريع"
+
+msgid "(untitled)"
+msgstr "(بدون عنوان)"
+
+msgid "disabled in official plugin"
+msgstr "معطّلة في الإضافة الرسمية"
+
+msgid "Save selected projects"
+msgstr "حفظ المشاريع المحددة"
+
+msgid "Forbidden."
+msgstr "الوصول ممنوع."
+
+msgid "Unknown task type."
+msgstr "نوع مهمة غير معروف."
+
+msgid "Another task is already running. Wait for it to finish or cancel it."
+msgstr "توجد مهمة أخرى قيد التنفيذ بالفعل. انتظر حتى تنتهي أو ألغِها."
+
+msgid "Nothing to process: no published Tilda-bound landings or published Tilda pages found."
+msgstr "لا يوجد ما تتم معالجته: لم يتم العثور على صفحات هبوط منشورة مرتبطة بـ Tilda ولا صفحات Tilda منشورة."
+
+msgid "Lock lost or belongs to another task."
+msgstr "فُقد القفل أو أنه يعود لمهمة أخرى."
+
+msgid "Tilda Bulk Sync Wrapper requires the official \"Tilda Publishing\" plugin (https://wordpress.org/plugins/tilda-publishing/). Install and activate it, then activate this plugin again."
+msgstr "يتطلب Tilda Bulk Sync Wrapper إضافة «Tilda Publishing» الرسمية (https://wordpress.org/plugins/tilda-publishing/). قم بتثبيتها وتفعيلها، ثم فعّل هذه الإضافة مرة أخرى."

@@ -1,0 +1,61 @@
+/**
+ * Tilda Bulk Sync Wrapper — admin screen styles.
+ */
+
+.tbsw-wrap h2 {
+	margin-top: 1.6em;
+}
+
+.tbsw-wrap .tbsw-ok {
+	color: #007017;
+	font-weight: 600;
+}
+
+#tbsw-progress-bar {
+	width: 100%;
+	max-width: 600px;
+	height: 18px;
+	background: #dcdcde;
+	border-radius: 4px;
+	overflow: hidden;
+	margin: 8px 0;
+}
+
+#tbsw-progress-bar > div {
+	height: 100%;
+	width: 0;
+	background: #2271b1;
+	transition: width 0.3s ease;
+}
+
+#tbsw-progress-line {
+	font-weight: 600;
+}
+
+.tbsw-log {
+	max-height: 320px;
+	overflow: auto;
+	background: #f6f7f7;
+	border: 1px solid #dcdcde;
+	padding: 8px 12px;
+	margin: 0;
+}
+
+.tbsw-log li {
+	margin: 2px 0;
+	font-size: 12px;
+	line-height: 1.5;
+}
+
+.tbsw-log code {
+	color: #646970;
+}
+
+#tbsw-preview-table td,
+#tbsw-preview-table th {
+	vertical-align: middle;
+}
+
+#tbsw-preview-counters {
+	font-weight: 600;
+}

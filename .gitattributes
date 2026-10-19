@@ -1,0 +1,12 @@
+# Normalize line endings in text files, keep binaries intact.
+* text=auto
+
+# Gettext catalogs: .po are text, .mo are compiled binaries.
+languages/*.po text
+languages/*.mo binary
+
+# Explicit binaries.
+*.mo binary
+*.jpg binary
+*.png binary
+*.gif binary

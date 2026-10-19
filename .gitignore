@@ -1,0 +1,11 @@
+# macOS
+.DS_Store
+
+# Development-only helpers (not shipped in the wordpress.org ZIP)
+tools/
+
+# Editors / backups
+*.swp
+*~
+.idea/
+.vscode/
